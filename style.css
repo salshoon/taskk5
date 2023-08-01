@@ -1,0 +1,273 @@
+a {
+    text-decoration: none;
+}
+ul, ol {
+   list-style: none;
+}
+*{ 
+
+    box-sizing: border-box; 
+
+} 
+.header h5 {
+    font-family: inter ;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 26px;
+    text-align:  center;
+  
+    color:#282828 ;
+}
+.header h1 {
+    font-family: inter;
+    font-size: 54px;
+    font-weight: 600px;
+    line-height: 62px;
+    text-align: center;
+    color: #282828 ;
+}
+.header p{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 35px;
+    text-align: center;
+    color:#5F6980 ;
+}
+.header{
+    padding: 0px 52px 0px 52px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center ;
+    margin: 80px 52px 48px 52px;
+}
+.card-box{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1336px;
+    height: 430px;
+    margin: 48px auto;
+   }
+.card {
+    width: 310px;
+    height: 430px;
+    border: 1px;
+    padding: 0px, 0px, 16px, 0px;
+    gap: 16px;
+}
+.card img{
+    width: 100%;
+
+}
+
+.card h2 {
+    font-family: inter;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    color:#282828;
+    padding:16px, 4px, 4px, 16px;
+    width: 278px;
+    height: 30px;
+}
+.card h4{
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 22px;
+    color:#3E3E59;
+    padding: 0px 16px 8px 0px ;
+    width: 278px;
+    height: 22px;
+}
+.card p{
+font-family: inter;
+font-weight: 400px;
+font-size: 14px;
+line-height: 22px;
+color:#5F6980;
+width: 278px;
+height:44px;
+
+}
+.card.icons img{
+    width: 36px;
+    height: 36px;
+    padding: 9px 8.999998092651367px 8.999998092651367px 9px;
+    border-radius: 100px;
+    
+    
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1654px;
+    height: 512px;
+    padding: 108px 184px 181px 164px;
+    background-color:#53535354 ;
+    
+}
+.footer-block1 {
+    width: 318.046875px;
+    height: 221px;
+    top: 108px;
+    left: 164px;
+
+}
+.footer-block1 img{
+    width: 100px;
+    height: 64px;
+    top: 108px;
+    left: 164px;
+    
+}
+.footer-block1 p{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#535353;
+
+}
+.footer-icons{
+    width: 104px;
+    height: 24px;
+    top: 305px;
+    left: 176px;
+    
+}
+.footer-block2{
+  width: 136px;
+  height: 223px;
+  top: 108px;
+  left: 627px;
+
+}
+.footer-block2 h2{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+width: 136px;
+height: 24px;
+top: 108px;
+left: 627px;
+color:#1E1E1E ;
+margin-bottom: 55px;
+}
+.footer-block2 li {
+    display: block;
+    padding-top: 15px;
+    text-align: left;
+    
+}
+.footer-block2 .home{
+    color:#535353;
+    width: 92px;
+    height: 17px;
+    top: 203px;
+    left: 627px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.footer-block2 .about{
+    width: 92px;
+height: 48px;
+top: 235px;
+left: 627px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#535353;
+margin-top: 15px;
+}
+.footer-block2 .touch{
+    width: 108px;
+height: 48px;
+top: 283px;
+left: 627px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#535353; 
+display: flex;
+}
+.footer-block3 {
+width: 199px;
+height: 223px;
+top: 108px;
+left: 1017px;
+
+}
+.footer-block3 li{
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    
+}
+.footer-block3 h2{
+    width: 85px;
+height: 24px;
+top: 108px;
+left: 1023px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#1E1E1E;
+margin-bottom: 55px ;
+}
+.footer-block3 .list-item{
+ margin-top: 15px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#535353
+}
+.footer-block4 {
+width: 107px;
+height: 127px;
+top: 108px;
+left: 1363px;
+
+}
+.footer-block4 h2{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#1E1E1E;
+margin-bottom: 58px;;
+}
+.footer-block4 img{
+width: Hug (80px);
+height: Hug (45px);
+padding: 14px 16px 14px 16px;
+gap: 10px;
+
+}
