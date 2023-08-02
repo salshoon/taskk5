@@ -1,0 +1,13 @@
+@media (max-width:580px){
+    .card-box{
+        display: block;
+        flex-direction: column;
+    }
+    .header{
+        width: 60px;
+    }
+    .card{
+        width:  300px;
+        margin-bottom: 40px;
+    }
+}
